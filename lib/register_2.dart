@@ -3,15 +3,15 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter/gestures.dart';
-
-class Register2 extends StatefulWidget {
-  const Register2({super.key});
+import 'package:propotypefltutter/model/user.dart';
+class ShowSreenProfile extends StatefulWidget {
+  const ShowSreenProfile({super.key});
 
   @override
-  State<Register2> createState() => _Register2State();
+  State<ShowSreenProfile> createState() => _ShowSreenProfileState();
 }
 
-class _Register2State extends State<Register2> {
+class _ShowSreenProfileState extends State<ShowSreenProfile> {
   final _formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
